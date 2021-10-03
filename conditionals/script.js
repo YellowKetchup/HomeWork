@@ -1,15 +1,15 @@
 //1. пользователь вводит 2 числа, вывести в консоль большее из них
 
-// let num1 = +prompt('enter num1');
-// let num2 = +prompt('enter num2');
+let num1 = +prompt('enter num1');
+let num2 = +prompt('enter num2');
 
-// if (num1 > num2) {
-//     console.log(num1);
-// } else if (num2 > num1) {
-//     console.log(num2);
-// } else {
-//     console.log('they are equal');
-// }
+if (num1 > num2) {
+    console.log(num1);
+} else if (num2 > num1) {
+    console.log(num2);
+} else {
+    console.log('they are equal');
+}
 
 //2. пользователь вводит 3 числа, первые два это числа которые он хочет перемножить
 // третье число, это результат умножения по мнению пользователя
